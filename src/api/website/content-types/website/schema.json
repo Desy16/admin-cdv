@@ -1,0 +1,127 @@
+{
+  "kind": "singleType",
+  "collectionName": "websites",
+  "info": {
+    "singularName": "website",
+    "pluralName": "websites",
+    "displayName": "Website",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "presentationQuoteText": {
+      "type": "text"
+    },
+    "presentationQuoteAuthor": {
+      "type": "string"
+    },
+    "presentationQuoteSource": {
+      "type": "string"
+    },
+    "bookStatsCopiesCount": {
+      "type": "biginteger"
+    },
+    "bookStatsPagesCount": {
+      "type": "integer"
+    },
+    "bookStatsChaptersCount": {
+      "type": "integer"
+    },
+    "goalReadersCount": {
+      "type": "biginteger"
+    },
+    "goalParticipantsCount": {
+      "type": "integer"
+    },
+    "projectPresentationTextContent": {
+      "type": "richtext"
+    },
+    "raceIsOnVerseQuoteText": {
+      "type": "text"
+    },
+    "raceIsOnVerseQuoteReference": {
+      "type": "string"
+    },
+    "startWalkingUserGreeting": {
+      "type": "string"
+    },
+    "startWalkingUserWelcomeText": {
+      "type": "text"
+    },
+    "getBookCopyPresentationText": {
+      "type": "text"
+    },
+    "getBookCopyButtonLabel": {
+      "type": "string"
+    },
+    "weCanHelpPresentationText": {
+      "type": "text"
+    },
+    "weCanHelpButtonLabel": {
+      "type": "string"
+    },
+    "theEventInvitationText": {
+      "type": "text"
+    },
+    "theEventInvitationButtonLabel": {
+      "type": "string"
+    },
+    "repentancePresentationText": {
+      "type": "text"
+    },
+    "repentanceStep1Title": {
+      "type": "string"
+    },
+    "repentanceStep2Title": {
+      "type": "string"
+    },
+    "repentanceStep3Title": {
+      "type": "string"
+    },
+    "repentanceStep4Title": {
+      "type": "string"
+    },
+    "repentanceStep1Text": {
+      "type": "text"
+    },
+    "repentanceStep2Text": {
+      "type": "text"
+    },
+    "repentanceStep3Text": {
+      "type": "text"
+    },
+    "repentanceStep4Text": {
+      "type": "text"
+    },
+    "repentanceShareMyTestimonyButtonLabel": {
+      "type": "string"
+    },
+    "repentanceWantHelpButtonLabel": {
+      "type": "string"
+    },
+    "copyrightText": {
+      "type": "string"
+    },
+    "socialFacebookUrl": {
+      "type": "string"
+    },
+    "socialInstagramUrl": {
+      "type": "string"
+    },
+    "socialTwitterUrl": {
+      "type": "string"
+    },
+    "bannerSubtitle": {
+      "type": "richtext"
+    },
+    "presentationQuoteReferenceUrl": {
+      "type": "string"
+    },
+    "footerText": {
+      "type": "richtext"
+    }
+  }
+}

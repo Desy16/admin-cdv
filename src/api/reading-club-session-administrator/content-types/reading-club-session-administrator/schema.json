@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reading_club_session_administrators",
+  "info": {
+    "singularName": "reading-club-session-administrator",
+    "pluralName": "reading-club-session-administrators",
+    "displayName": "Reading club administrator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  }
+}

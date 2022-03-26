@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reading_clubs",
+  "info": {
+    "singularName": "reading-club",
+    "pluralName": "reading-clubs",
+    "displayName": "Reading club",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "platform": {
+      "type": "string",
+      "default": "Zoom"
+    },
+    "platformSupports": {
+      "type": "string",
+      "default": "(téléphone ou ordinateur)"
+    },
+    "meetingUrl": {
+      "type": "string"
+    },
+    "meetingId": {
+      "type": "string"
+    },
+    "meetingPasscode": {
+      "type": "string"
+    },
+    "meetingPhoneNumbers": {
+      "type": "string"
+    },
+    "administrator": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::reading-club-session-administrator.reading-club-session-administrator"
+    },
+    "startingAt": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::reading-club-session-starting-at.reading-club-session-starting-at"
+    },
+    "uid": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
